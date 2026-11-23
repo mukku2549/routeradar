@@ -4,7 +4,7 @@
   "description": "Inspect, analyze, and document Express.js routes automatically without executing handlers or mutating the application. Supports Express 4 and Express 5.",
   "main": "src/index.js",
   "type": "commonjs",
-  "author": "Muskaan Rawal",
+  "author": "Muskaan Parveen",
   "scripts": {
     "test": "node --test",
     "example:basic": "node examples/basic.js",
