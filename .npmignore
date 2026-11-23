@@ -1,0 +1,6 @@
+examples/output/
+tests/
+coverage/
+*.tgz
+.DS_Store
+Thumbs.db

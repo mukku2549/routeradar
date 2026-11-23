@@ -1,0 +1,46 @@
+{
+  "name": "routeradar",
+  "version": "1.0.0",
+  "description": "Inspect, analyze, and document Express.js routes automatically without executing handlers or mutating the application. Supports Express 4 and Express 5.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "author": "Muskaan Rawal",
+  "scripts": {
+    "test": "node --test",
+    "example:basic": "node examples/basic.js",
+    "example:nested": "node examples/nested-routes.js",
+    "example:export": "node examples/export-reports.js"
+  },
+  "keywords": [
+    "express",
+    "express-routes",
+    "route-scanner",
+    "route-analyzer",
+    "api-documentation",
+    "express4",
+    "express5",
+    "middleware-inspector",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "express": "^4.18.0 || ^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "express": "^5.3.0"
+  }
+}
